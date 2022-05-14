@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 10px;
+  flex-direction: row;
+  margin: 50px auto;
+  width: 100%;
+}
+.topCenter {
+  padding-left: 20px;
+  flex: 1;
+  background-color: #f8f8ff;
+  margin:0px 10px;
+  padding: 20px;
+  min-width: 500px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #7687ff11;
+}
+.unknown{
+  font-style: italic;
+  color: #999;
+}
+.topRight {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.row {
+  display: flex;
+  margin-bottom: 10px;
+}
+.rowLabel {
+  display: flex;
+  padding-left: 10px;
+  color: #666;
+  border-left: 3px solid #ddd;
+}
+.rowValue {
+  display: flex;
+  padding-left: 10px;
+  color: #000;
+}
+.heading {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+.caption {
+  margin: 10px 0px;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  flex-direction: row;
+  margin: 50px auto;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.contentLeft {
+  width: 200px;
+}
+
+.contentCenter {
+  padding-left: 20px;
+  padding-right: 20px;
+  flex: 1;
+}
+
+
+.contentRight{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.num{
+  color:#666;
+  padding-left: 10px;
+}

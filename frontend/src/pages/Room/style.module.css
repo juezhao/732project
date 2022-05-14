@@ -1,0 +1,249 @@
+.topImage {
+  width: 100vw;
+  height: 35vw;
+  object-fit: cover;
+}
+.home {
+  flex: 1;
+}
+.button {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  padding: 13px 45px;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  transition: all 0.3s;
+  border: 2px solid #fdd340;
+  margin-top: 50px;
+  width: 200px;
+}
+.content {
+  display: flex;
+  padding: 0px;
+  height: 100%;
+}
+.filters {
+  width: 330px;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #f5f5ff;
+  border-radius: 5px;
+}
+.videosContent {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  position: relative;
+}
+.top{
+  font-weight: bold;
+  line-height: 50px;
+  height: 50px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.catalogItem {
+  background-color: #f8f8f8;
+  margin-bottom: 30px;
+  margin-right: 15px;
+  padding: 20px;
+  width: 250px;
+  cursor: pointer;
+}
+.catalogItemImage {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.catalogItemName {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.catalogItemPrice {
+  font-size: 16px;
+  margin: 10px 0px;
+}
+.itemFilter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.itemFilterTop {
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+.itemFilterTopFont {
+  font-size: 14px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.itemFilterTopButton {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #000088;
+}
+.filterCaption {
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.rightContentWrapper {
+  width: 400px;
+  box-shadow: 2px 2px 2px 2px #00000022;
+  border-radius: 10px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+.rightContentWrapperCaption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.joinRoom {
+  margin-top: 30px;
+  background-color: #6577ff;
+  color: #fff;
+  width: 200px;
+  text-align: center;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.createRoom {
+  background-color: #f2f5f8;
+  color: #333;
+  width: 200px;
+  text-align: center;
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.joinContent {
+  width: 400px;
+  box-shadow: 2px 2px 2px 2px #00000022;
+  border-radius: 10px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+.joinButton {
+  background-color: #6577ff;
+  color: #fff;
+  width: 100px;
+  text-align: center;
+  padding: 5px 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cancelButton {
+  background-color: #f2f5f8;
+  color: #333;
+  width: 100px;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.chats {
+  width: 300px;
+  background-color: #f5f5ff;
+  margin: 10px;
+  border-radius: 10px;
+  height: 100%;
+}
+.chatsCaption {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+.chatsContent{
+  flex: 1;
+  overflow: auto;
+  height: calc(100vh - 300px);
+}
+.chatsBottom{
+  
+}
+.videos {
+  flex: 1;
+  overflow: auto;
+  height: calc(100vh - 100px);
+}
+.bottomButtons {
+  background-color: #000;
+  line-height: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 10px;
+  left: 350px;
+  right: 350px;
+}
+.leaveButton{
+  width: 100px;
+  height: 36px;
+  background-color: #fdd340;
+  border: 0px;
+  border-radius: 40px;
+  line-height: 36px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.qipaoChatsBottom{
+  height: 130px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.qipao{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%,0%);
+  display: flex;
+  align-items: flex-end;
+  font-size: 16px;
+  color: #333;
+}

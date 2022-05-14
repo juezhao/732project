@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  flex-direction: row;
+  background-color: #f2f5f8;
+  width: 100%;
+  margin: 50px auto;
+  background-size: cover;
+}
+.signupWrapper{
+  width: 600px;
+  background-color: #f2f5f8;
+  padding: 20px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20vw !important;
+}
+.caption{
+  margin:10px 0px;
+  font-weight:bold;
+}
